@@ -39,7 +39,7 @@ const App = () => {
   {
     e.preventDefault();
 
-    countarr.map((ele)=> console.log(ele));
+    console.log([countarr]);
   }
 
   return (
