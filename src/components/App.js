@@ -47,7 +47,7 @@ const App = () => {
         <form style={{margin: 'auto'}} onSubmit={(e)=> submitFunc(e)}> 
             {
               countarr.map((ele,index)=> { return(
-                <div key={Math.floor(Math.random()*1000)} id={`div-${index}`} style={{display: 'flex'}}>
+                <div id={`div-${index}`} style={{display: 'flex'}}>
                  <input type="text" name="name" placeholder="Name" value={ele.name} onChange={(e)=> nameChange(e,index)}/>
                  <input type="text" name="age" placeholder="Age" value={ele.age} onChange={(e)=> ageChange(e,index)}/>
                  <button onClick={(e)=> removeRow(e,index)}>Remove</button>
