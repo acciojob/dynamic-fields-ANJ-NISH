@@ -39,7 +39,7 @@ const App = () => {
   {
     e.preventDefault();
 
-    console.log([countarr]);
+    console.log(countarr);
   }
 
   return (
